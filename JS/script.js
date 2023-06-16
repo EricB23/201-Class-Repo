@@ -23,7 +23,7 @@ else {
   alert('That answer is not valid');
  
 }
-}
+
 birthdate('My birthday is in June?');
 
 function birthdate(userinput){
@@ -41,7 +41,7 @@ let answer2 = prompt(userinput);
   alert('That answer is not valid');
 
 }
-}
+
 
 
 childhood('I was an only child growing up?');
@@ -78,7 +78,7 @@ let answer4 = prompt(userinput);
 }else {
   alert('That answer is not valid');
 }
-}
+
 
 
 collegeschool('Did I graduate from Tennessee State University');
@@ -96,7 +96,7 @@ let answer5 = prompt(userinput);
 } else {
   alert('That answer is not valid');
 }
-}
+
 
 
 let number ='';
@@ -128,7 +128,7 @@ for (let i = 0; i < 4; i++){
   }else {
     alert('Wrong, try again!');
   }
-}
+
 console.log(userPoints);
 
 alert(`You have gained ${userPoints} points`);
